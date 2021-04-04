@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
+  font-size: 1.125rem;
 }
 
 *, *::before, *::after {
@@ -9,7 +10,8 @@ html {
 }
 
 img {
-  width: 5%;
+  width: 2rem;
+  margin: .5rem;
 }
 
 body {
@@ -19,6 +21,22 @@ body {
 header {
   display: flex;
   background-color: #e2e2e2;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header h1 {
+  padding-right: 1em;
+}
+
+header img {
+  padding: 0;
+  order: -1;
+}
+
+header p {
+  padding: .75em 1em .6em;
 }
 
 nav ul {
@@ -34,6 +52,7 @@ nav a:hover {
   color: #fff;
 }
 
-header p {
-  justify-content: center;
+nav li {
+  display: inline;
+  padding: 1rem;
 }
